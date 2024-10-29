@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1018184501424",
+    "project_id": "wrestling-news-app",
+    "storage_bucket": "wrestling-news-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018184501424:android:c3e9d3d081398d43be9375",
+        "android_client_info": {
+          "package_name": "com.example.wrestling_news"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB44UMPtBmof5IhXMaj7ODSoe0Qxr5v1Wc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
