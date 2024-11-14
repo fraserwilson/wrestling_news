@@ -1,28 +1,23 @@
 part of 'news_article_cubit.dart';
 
 class MainNewsArticleState extends Equatable {
-  final List<NewsArticleModel>? wrestlingIncStories;
-  final List<NewsArticleModel>? cultaholicStories;
+  final List<NewsArticleModel>? wrestlingArticles;
 
   const MainNewsArticleState({
-    this.wrestlingIncStories,
-    this.cultaholicStories,
+    this.wrestlingArticles,
   });
 
   MainNewsArticleState copyWith({
-    List<NewsArticleModel>? wrestlingIncStories,
-    List<NewsArticleModel>? cultaholicStories,
+    List<NewsArticleModel>? wrestlingArticles,
   }) {
     return MainNewsArticleState(
-      wrestlingIncStories: wrestlingIncStories ?? this.wrestlingIncStories,
-      cultaholicStories: cultaholicStories ?? this.cultaholicStories,
+      wrestlingArticles: wrestlingArticles ?? this.wrestlingArticles,
     );
   }
 
   @override
   List<Object?> get props => [
-        wrestlingIncStories,
-        cultaholicStories,
+        wrestlingArticles,
       ];
 }
 

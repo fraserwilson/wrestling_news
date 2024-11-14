@@ -32,3 +32,34 @@ class NewsArticleModel {
     };
   }
 }
+
+// class NewsArticleModel {
+//
+//
+//
+//   // Constructor
+//   NewsArticleModel({
+// });
+//
+// NewsArticleModel copyWith({
+//
+// }) {
+// return NewsArticleModel(
+//
+// );
+// }
+//
+// // Factory method to create a NewsArticle from JSON
+// factory NewsArticleModel.fromMap(Map<String, dynamic> json) {
+// return NewsArticleModel(
+//
+// );
+// }
+//
+// // Method to convert a NewsArticle instance to JSON
+// Map<String, dynamic> toMap() {
+// return {
+//
+// };
+// }
+// }
